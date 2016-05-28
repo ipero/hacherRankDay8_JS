@@ -1,5 +1,6 @@
 // Solution for challenge Day 8: Dictionaries and Maps on HackerRank.com
 function processData(input) {
+    //this function check if name exists in dictionary phoneBook
     function find(name){
         if(name in phoneBook){
             console.log(name + "=" + phoneBook[name]);
